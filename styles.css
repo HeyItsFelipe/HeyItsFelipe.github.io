@@ -1,0 +1,167 @@
+
+/*************** General Font ***************/
+
+body {
+
+	font-family: "Lato", sans-serif;
+
+}
+
+/*************** Header ***************/
+
+.header-img-margin {
+
+	margin-top: 25px;
+
+}
+
+.header-title-style {
+
+	font-weight: normal;
+	font-size: 30px;
+	color: #747704;
+
+}
+
+.header-subtitle-style {
+
+	color: #747704;
+
+}
+
+hr {
+
+	height: 5px;
+	background-color: #bcbbbb;
+	margin: 10px;
+
+}
+
+/*************** Projects Title ***************/
+
+.projects-text-margin {
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+.projects-text-style {
+
+	color: #bcbbbb;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+/*************** Project Thumbnails ***************/
+
+.project-thumbnail-height {
+
+	height: auto;
+
+}
+
+.project-thumbnail-padding {
+
+	padding: 8px;
+
+}
+
+.project-img-center {
+
+	margin: 0 auto;
+
+}
+
+.project-title-margin {
+
+	margin-top: 10px;
+
+}
+
+p {
+
+	display: none;
+
+}
+
+.project-title-style {
+
+	font-weight: normal;
+	font-size: 25px;
+	color: #747704;
+
+}
+
+.project-text-margin {
+
+	margin-bottom: 0px;
+
+}
+
+.project-text-style {
+
+	color: #747704;
+	font-family: Helvetica;
+	font-weight: normal;
+
+}
+
+
+
+/*************** To Ajust To Screen Size ***************/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* From tablets, devices with screens 768px, and up */
+@media screen and (min-width: 768px) {
+
+	.project-thumbnail-height {
+
+		height: 300px;
+
+	}
+
+	p {
+
+		display: block;
+		margin: 0 auto;
+
+	}
+
+}
+
+/* From laptops, devices with screens 1024px, and up */
+@media screen and (min-width: 1024px) {
+
+	.header-row-padding {
+
+		padding-top: 10px;
+    	padding-right: 12px;
+    	padding-bottom: 10px;
+    	padding-left: 0px;
+
+	}
+
+	.header-title-style {
+
+		font-size: 60px;
+		text-align: right;
+
+	}
+
+	.header-subtitle-style {
+
+		text-align: right;
+
+	}
+
+	hr {
+
+		margin: 20px;
+
+	}
+
+}
