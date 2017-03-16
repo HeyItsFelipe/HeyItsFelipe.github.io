@@ -37,6 +37,22 @@ hr {
 
 }
 
+.cover-links li {
+    font-size: 32px;
+    margin: 5px;
+}
+
+.cover-links li a, 
+.cover-links li a:focus {
+
+    color: #1ea5ed;
+
+}
+
+.cover-links li a:hover {
+    color: #4389c4;
+}
+
 /*************** Projects Title ***************/
 
 .projects-text-margin {
