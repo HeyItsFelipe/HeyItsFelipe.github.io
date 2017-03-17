@@ -9,6 +9,8 @@ body {
 
 .header-img-css {
 	margin-top: 25px;
+    height: 100px;
+    width: 100px;
 }
 
 .header-title-css {
@@ -55,11 +57,15 @@ hr {
 
 .project-thumbnail-css {
 	height: auto;
+    max-width: 400px;
 	padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-thumbnail-css img {
 	margin: 0 auto;
+    border: solid 1px #ccc;
 }
 
 .project-thumbnail-css figcaption h2 {
@@ -67,6 +73,7 @@ hr {
 	font-weight: normal;
 	font-size: 25px;
 	color: #747704;
+    padding-top: 5px;
 }
 
 .project-thumbnail-css figcaption p {
@@ -91,7 +98,7 @@ hr {
 	}
 
 	.project-thumbnail-css figcaption p {
-		display: block;
+		display: none;
 		margin: 0 auto;
 	}
 
@@ -106,18 +113,36 @@ hr {
     	padding-bottom: 10px;
     	padding-left: 0px;
 	}
+    
+    .header-img-css {
+        height: 200px;
+        width: 200px;
+    }
 
 	.header-title-css {
-		font-size: 60px;
+		font-size: 60px; /*
 		text-align: right;
+*/
 	}
 
 	.header-subtitle-css {
-		text-align: right;
+        font-size: 30px;
+/*		text-align: right;*/
 	}
 
 	hr {
 		margin: 20px;
 	}
+    
+    .social-links-css li {
+        font-size: 40px;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 0px;
+    }
+    
+    .projects-title-css {
+        font-size: 30px;
+    }
 
 }
