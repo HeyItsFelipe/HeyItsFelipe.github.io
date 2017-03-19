@@ -12,6 +12,7 @@ $(document).ready(function(){
     
     // List of projects
     var projects = [
+        new Project("Gandhi Tribute Page", "https://heyitsfelipe.github.io/GandhiTributePage/", "images/GandhiTribute_800x400.jpg"),
         new Project("Neighborhood Map", "https://heyitsfelipe.github.io/Neighborhood_Map/", "images/project2_400x200.jpg"),
         new Project("IPND Notes", "https://first-project-1029.appspot.com/", "images/project1_400x200.jpg")
     
@@ -25,3 +26,4 @@ $(document).ready(function(){
     }
     
 });
+
