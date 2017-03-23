@@ -76,12 +76,9 @@ hr {
     padding-top: 5px;
 }
 
-.project-thumbnail-css figcaption p {
+.project-tags-css {
 	display: none;
-	margin-bottom: 0px;
-	color: #747704;
-	font-family: Helvetica;
-	font-weight: normal;
+	margin-bottom: 0px; 
 }
 
 
@@ -97,9 +94,22 @@ hr {
 		height: 300px;
 	}
 
-	.project-thumbnail-css figcaption p {
-		display: none;
+	.project-tags-css {
+		display: block;
 		margin: 0 auto;
+        line-height: 1.5em;
+        word-spacing: 2px;
+        color: #8b8b8b;
+        font-family: Helvetica;
+        font-weight: normal;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+	.project-thumbnail-css figcaption h2 {
+		font-size: 20px;
 	}
 
 }
