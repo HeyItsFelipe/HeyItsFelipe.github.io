@@ -37,10 +37,12 @@ hr {
 .social-links-css li a, 
 .social-links-css li a:focus {
     color: #1ea5ed;
+    text-decoration: none;
 }
 
 .social-links-css li a:hover {
     color: #4389c4;
+    text-decoration: none;
 }
 
 /*************** Projects Title ***************/
