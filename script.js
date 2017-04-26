@@ -13,7 +13,8 @@ $(document).ready(function(){
     
     // List of projects
     var projects = [
-        new Project("Gandhi Tribute Page", "https://heyitsfelipe.github.io/GandhiTributePage/", "images/GandhiTribute_800x400.jpg", ["Dojo", "Bootstrap", "CSS", "HTML"]),
+        new Project("Simon Game", "https://codepen.io/HeyItsFelipe/full/WjvxvG/", "images/SimonGame_800x400.jpg", ["Dojo", "Bootstrap", "JavaScript", "CSS", "HTML"]),
+//        new Project("Gandhi Tribute Page", "https://heyitsfelipe.github.io/GandhiTributePage/", "images/GandhiTribute_800x400.jpg", ["Dojo", "Bootstrap", "CSS", "HTML"]),
         new Project("Neighborhood Map", "https://heyitsfelipe.github.io/Neighborhood_Map/", "images/NeighborhoodMap_400x200.jpg", ["Google Maps API", "Wikipedia API", "Knockout", "AJAX", "jQuery", "JavaScript", "Bootstrap", "CSS", "HTML"]),
         new Project("IPND Notes", "https://first-project-1029.appspot.com/", "images/IPNDNotes_400x200.jpg", ["Google App Engine", "Python", "JavaScript", "CSS", "HTML"])
     
