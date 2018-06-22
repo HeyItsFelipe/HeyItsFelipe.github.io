@@ -43,7 +43,7 @@ hr{
   height: 2px;
   background-color: #2196F3;
   border: 0;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 section{
@@ -80,7 +80,7 @@ section h3.title{
 
 section p{
   max-width: 800px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 35px;
   padding: 0 20px;
   line-height: 2;
